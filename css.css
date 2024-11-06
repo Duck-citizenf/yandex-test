@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Merriweather;
+    src: url(Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: Golos Text;
+    src: url(GolosText-Bold.ttf);
+}
+.title{
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 66px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.title1{
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 66px;
+    text-transform: uppercase;
+}
+.claimer{
+    font-family: Golos Text;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: center;
+}
+.logo{
+    font-family: Golos Text;
+    font-size: 16.65px;
+    font-weight: 700;
+    line-height: 17.98px;
+    text-align: left;
+}
