@@ -67,3 +67,13 @@ body{
     padding: 20px;
     width: 219px;
 }
+.running-line{
+    font-family: Merriweather;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: right;
+    background-color: #F54932;
+    text-transform: uppercase;
+    color: white;
+}
