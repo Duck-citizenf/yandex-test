@@ -97,12 +97,28 @@ body{
     line-height: 20.8px;
     text-align: center;
 }
+.button-black:hover{
+    background-color: #FBCE51;
+    border: 2px #FBCE51 solid;
+    color: #1F1F1F;
+}
+.button:hover{
+    color: white;
+    background-color: #1F1F1F;
+}
 .button{
     border: 2px #1F1F1F solid;
     border-radius: 66px;
-    
     padding: 20px;
     width: 219px;
+}
+.button-black{
+    border: 2px #1F1F1F solid;
+    border-radius: 66px;
+    padding: 20px;
+    width: 219px;
+    color: white;
+    background-color: #1F1F1F;
 }
 .running-line{
     font-family: Merriweather;
@@ -207,4 +223,12 @@ tr:last-child td{
     width: 113px;
     padding: 12px;
     border-radius: 62px;
+    font-family: Golos Text;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+.blue-button:hover{
+    color: white;
+    background-color: #3057A2;
 }
