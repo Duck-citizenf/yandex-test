@@ -1,14 +1,18 @@
 @font-face {
     font-family: Merriweather;
-    src: url(Merriweather-Regular.ttf);
+    src: url(fonts/Merriweather-Regular.ttf);
 }
 @font-face {
     font-family: Golos Text;
-    src: url(GolosText-Regular.ttf);
+    src: url(fonts/GolosText-Regular.ttf);
 }
 @font-face {
     font-family: Golos Text Medium;
-    src: url(GolosText-Medium.ttf);
+    src: url(fonts/GolosText-Medium.ttf);
+}
+@font-face {
+    font-family: Golos Text SemiBold;
+    src: url(fonts/GolosText-SemiBold.ttf);
 }
 body{
     margin: 0px;
@@ -16,28 +20,50 @@ body{
 .flex{
     display: flex;
 }
-.title{
-    font-family: Merriweather;
+.warp{
+    flex-wrap: wrap;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-36{
+    font-size: 36px;
+}
+.font-54{
+    font-size: 54px;
+}
+.font-60{
     font-size: 60px;
+}
+.lh-24{
+    line-height: 24px;
+}
+.weight-400{
+    font-weight: 400;
+}
+.weight-400{
+    font-weight: 500;
+}
+.merriweather{
+    font-family: Merriweather;
+}
+.title{
     font-weight: 400;
     line-height: 66px;
     text-align: right;
-    text-transform: uppercase;
+    
 }
 .title2{
-    font-family: Merriweather;
-    font-size: 60px;
     font-weight: 400;
     line-height: 66px;
     text-align: center;
-    text-transform: uppercase;
 }
 .title1{
-    font-family: Merriweather;
-    font-size: 60px;
     font-weight: 400;
     line-height: 66px;
-    text-transform: uppercase;
 }
 .claimer{
     font-family: Golos Text;
@@ -74,6 +100,40 @@ body{
     line-height: 24.2px;
     text-align: right;
     background-color: #F54932;
-    text-transform: uppercase;
     color: white;
+}
+.table{
+    font-family: Golos Text;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+}
+.font-golos-semi{
+    font-family: Golos Text SemiBold;
+}
+.font-golos{
+    font-family: Golos Text;
+}
+.table-text{
+    font-size: 20px;
+    line-height: 24px;
+}
+table{
+    border-spacing: 0px;
+}
+td{
+    border-bottom: 2px solid #D0D0D0;
+    padding: 16px;
+}
+td:first-child{
+    border-right: 2px solid #D0D0D0;
+    width: 306px;
+    font-family: Golos Text;
+}
+tr:first-child td{
+    padding-top: 0px;
+}
+tr:last-child td{
+    border-bottom: 0px;
+    padding-bottom: 0px;
 }
