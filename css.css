@@ -114,6 +114,7 @@ body{
     border-radius: 66px;
     padding: 20px;
     width: 219px;
+    cursor: pointer;
 }
 .button-black{
     border: 2px #1F1F1F solid;
@@ -122,6 +123,7 @@ body{
     width: 219px;
     color: white;
     background-color: #1F1F1F;
+    cursor: pointer;
 }
 .running-line{
     font-family: Merriweather;
@@ -230,6 +232,7 @@ tr:last-child td{
     font-size: 16px;
     font-weight: 500;
     line-height: 19.2px;
+    cursor: pointer;
 }
 .blue-button:hover{
     color: white;
@@ -238,12 +241,19 @@ tr:last-child td{
 .arrow-button{
     width: 44px; 
     height: 44px; 
-    background-color: #313131; 
     border-radius: 60px; 
     position: relative; 
     color: white; 
     font-size: 31px;
 }
-.arrow-button:hover{
+.arrow-active{
+    background-color: #313131;
+    cursor: pointer;
+}
+.arrow-block{
+    background-color: #D6D6D6;
+    pointer-events: none;
+}
+.arrow-active:hover{
     background-color: #FBCE51; 
 }
