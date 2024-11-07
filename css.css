@@ -110,9 +110,10 @@ body{
     font-size: 22px;
     font-weight: 400;
     line-height: 24.2px;
-    text-align: right;
     background-color: #F54932;
     color: white;
+    text-wrap: nowrap;
+    overflow: hidden;
 }
 .table{
     font-family: Golos Text;
