@@ -235,3 +235,15 @@ tr:last-child td{
     color: white;
     background-color: #3057A2;
 }
+.arrow-button{
+    width: 44px; 
+    height: 44px; 
+    background-color: #313131; 
+    border-radius: 60px; 
+    position: relative; 
+    color: white; 
+    font-size: 31px;
+}
+.arrow-button:hover{
+    background-color: #FBCE51; 
+}
