@@ -257,3 +257,13 @@ tr:last-child td{
 .arrow-active:hover{
     background-color: #FBCE51; 
 }
+.gallery{
+    transform: translate(0px);
+    transition-duration: 200ms;
+    transition-property: all;
+}
+.gallery-2{
+    transform: translate(-1190px);
+    transition-duration: 200ms;
+    transition-property: all;
+}
