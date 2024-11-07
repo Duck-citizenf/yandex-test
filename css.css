@@ -267,3 +267,48 @@ tr:last-child td{
     transition-duration: 200ms;
     transition-property: all;
 }
+.title-common{
+    position: absolute; 
+    width:542px; 
+    top:26px; 
+    margin: 0px 348.5px;
+}
+.title-img{
+    width: 1920px; 
+    margin: 0px auto;
+}
+.flex-mobile-adapt{
+    display: flex;
+}
+.support-us{
+    width: 765px; 
+    margin-right: 64px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+@media (max-width:1366px){
+    .title-common{
+        margin: 0px 72px;
+    }
+    .title-img{
+        margin-left: -292px;
+    }
+}
+@media (max-width:375px){
+    .flex-mobile-adapt{
+        flex-direction: column;
+    }
+    .font-36{
+        font-size: 28px;
+    }
+    .support-us{
+        width: 335px;
+        margin-right: 0px;
+    }
+    .chessmaster-img{
+        width: 335px;
+        height: auto;
+    }
+}
