@@ -377,6 +377,11 @@ body{
 .text-card-wide{
     width: 446px;
 }
+.exclamation{
+    max-width:1234px; 
+    margin: 0 auto; 
+    padding: 40px 0 72px 0;
+}
 @media (max-width:1366px){
     .title-common{
         margin: 0px 72px;
@@ -396,9 +401,15 @@ body{
         margin: 0px 20px;
         width: 335px;
     }
+    .running-line{
+        margin-top: -39px;
+    }
     .claimer{
         text-align: left;
         padding-bottom: 32px;
+    }
+    .exclamation{
+        width: 335px;
     }
     .font-20{
         font-size: 18px;
@@ -540,6 +551,7 @@ body{
     }
     .title-mobile{
         display: initial;
+
     }
     .title-common{
         top: 18px; 
