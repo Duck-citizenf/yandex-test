@@ -146,6 +146,15 @@ body{
     padding-bottom: 18px;
     position: relative;
 }
+.running-line p {
+    animation: marquee 15s linear infinite;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
 .font-golos-semi{
     font-family: Golos Text SemiBold;
 }
@@ -222,7 +231,7 @@ body{
     grid-column: 3;
     grid-row: 1 / 3;
     background-position-x: -256px;
-    background-position-y: 301.29px;
+    background-position-y: 318.29px;
 }
 .card:nth-child(4){
     grid-column: 1;
@@ -290,6 +299,7 @@ body{
     position: relative; 
     color: white; 
     font-size: 31px;
+    user-select: none;
 }
 .arrow-active{
     background-color: #313131;
@@ -302,12 +312,12 @@ body{
 .arrow-active:hover{
     background-color: #FBCE51; 
 }
-.gallery{
+.gallery1{
     transform: translate(0px);
     transition-duration: 200ms;
     transition-property: all;
 }
-.gallery-2{
+.gallery2{
     transform: translate(-1190px);
     transition-duration: 200ms;
     transition-property: all;
@@ -315,7 +325,7 @@ body{
 .title-common{
     position: absolute; 
     width:542px; 
-    bottom:165px; 
+    top:26px; 
     margin: 0px 348.5px;
 }
 .flex-mobile-adapt{
@@ -382,12 +392,31 @@ body{
     margin: 0 auto; 
     padding: 40px 0 72px 0;
 }
+.pages-dots{
+    width: 10px;
+    height: 10px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    margin-right: 6px;
+}
+.dot-active{
+    background: #313131;
+}
+#gallery{
+    margin-bottom: 140px;
+    gap: 94px;
+}
 @media (max-width:1366px){
     .title-common{
         margin: 0px 72px;
     }
     .title-img{
         margin-left: -292px;
+    }
+}
+@media (min-width:376px){
+    .desktop-none{
+        display: none;
     }
 }
 @media (max-width:375px){
@@ -400,6 +429,7 @@ body{
     .title-common{
         margin: 0px 20px;
         width: 335px;
+        top: 18px;
     }
     .running-line{
         margin-top: -39px;
@@ -433,11 +463,16 @@ body{
         width: 335px;
         height: auto;
     }
+    .cards{
+        margin-bottom: 28px;
+    }
     .grid-cards{
         display: grid;
         grid-template-columns: 335px 335px 335px 335px 335px;
         grid-template-rows: 150px 150px;
         grid-auto-flow: column;
+    }
+    .mobile-overflow{
         overflow-x: hidden;
     }
     .card:nth-child(1){
@@ -553,9 +588,6 @@ body{
         display: initial;
 
     }
-    .title-common{
-        top: 18px; 
-    }
     .flex-logo{
         padding-bottom: 40px;
     }
@@ -587,5 +619,63 @@ body{
         width: 335px;
         right: 4px;
         top: -135px
+    }
+    .dot-gallery1{
+        transform: translate(0px);
+        transition-duration: 200ms;
+        transition-property: all;
+    }
+    .dot-gallery2{
+        transform: translate(-335px);
+        transition-duration: 200ms;
+        transition-property: all;
+    }
+    .dot-gallery3{
+        transform: translate(-670px);
+        transition-duration: 200ms;
+        transition-property: all;
+    }
+    .dot-gallery4{
+        transform: translate(-1005px);
+        transition-duration: 200ms;
+        transition-property: all;
+    }
+    .dot-gallery5{
+        transform: translate(-1340px);
+        transition-duration: 200ms;
+        transition-property: all;
+    }
+    #gallery{
+        margin-bottom: 40px;
+    }
+    .gallery1{
+        transform: translate(0px);
+        transition-duration: 200ms;
+        transition-property: all;
+    }
+    .gallery2{
+        transform: translate(-414px);
+        transition-duration: 200ms;
+        transition-property: all;
+    }
+    .gallery3{
+        transform: translate(-818px);
+        transition-duration: 200ms;
+        transition-property: all;
+    }
+    .gallery4{
+        transform: translate(-1239px);
+        transition-duration: 200ms;
+        transition-property: all;
+    }
+    .gallery5{
+        transform: translate(-1656px);
+        transition-duration: 200ms;
+        transition-property: all;
+    }
+    .gallery6{
+        transform: translate(-2070px);
+        transition-duration: 200ms;
+        transition-property: all;
     }
 }
