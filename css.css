@@ -445,6 +445,7 @@ body{
 .main-content{
     max-width:1234px; 
     margin: 0px auto;
+    overflow-x: hidden;
 }
 .top-1920{
     position: relative;
